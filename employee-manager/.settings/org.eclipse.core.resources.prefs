@@ -4,4 +4,6 @@ encoding//src/main/resources=UTF-8
 encoding//src/main/webapp/WEB-INF/view/basefragments/footer.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/view/basefragments/nav.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/view/bodyfragments/home.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/view/bodyfragments/list-profile.jsp=UTF-8
+encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8

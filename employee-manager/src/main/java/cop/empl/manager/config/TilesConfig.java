@@ -25,6 +25,7 @@ public class TilesConfig
         TilesConfigurer tilesConfigurer = new TilesConfigurer();
         // TilesView 3
         tilesConfigurer.setDefinitions("/WEB-INF/tiles.xml"); 
+        tilesConfigurer.setCheckRefresh(true);
         return tilesConfigurer;
     }
 }

@@ -13,12 +13,13 @@
 		<put-attribute name="footer" value="/WEB-INF/view/basefragments/footer.jsp" />
 		<put-list-attribute name="cssFileList">
 			<add-attribute value="/css/bootstrap.min.css"></add-attribute>
+			<add-attribute value="/css/style-sheet.css"></add-attribute>
 		</put-list-attribute>
 		<put-list-attribute name="jsFileList">
 			<add-attribute value="/js/jquery.min.js"></add-attribute>
 			<add-attribute value="/js/popper.min.js"></add-attribute>
 			<add-attribute value="/js/bootstrap.min.js"></add-attribute>
-			<add-attribute value="/js/scipt.js"></add-attribute>
+			<add-attribute value="/js/script.js"></add-attribute>
 		</put-list-attribute>
 	</definition>
 
@@ -31,4 +32,19 @@
 		</put-list-attribute>
 	</definition>
 
+	<!-- Profile Page -->
+	<definition name="profile" extends="base.definition">
+		<put-attribute name="title" value="Emplyee Profile" />		
+		<put-attribute name="content" value="/WEB-INF/view/bodyfragments/profile.jsp" />
+	</definition>
+	<!-- List Profile Page -->
+	<definition name="list-profile" extends="base.definition">
+		<put-attribute name="title" value="List Profile" />		
+		<put-attribute name="content" value="/WEB-INF/view/bodyfragments/list-profile.jsp" />
+	</definition>
+	<!-- Add New Profile Page -->
+	<definition name="add-new-profile" extends="base.definition">
+		<put-attribute name="title" value="Add New Profile" />		
+		<put-attribute name="content" value="/WEB-INF/view/bodyfragments/add-new-profile.jsp" />
+	</definition>
 </tiles-definitions>

@@ -1,2 +1,41 @@
-{
+/*
+	profile style
+*/
+.container{
+	margin-top: 60px;
 }
+.card-img-top{
+	width: 200px;
+	height: 300px;	
+}
+.img-word{
+	width: 25px;
+	height: 25px;	
+}
+/* / profile style .............. */
+
+/*
+* customize tags style
+*/
+.tags-input{
+	border: 1px solid #23bbff;
+	padding: 2px;
+	width: 750px;
+	height: 46px;
+}
+.tags-input > .badge-pill{
+	font-size: 16px;
+	line-height: 16px;
+}
+.tags-input >.badge-pill >.close:hover{
+	color: red;
+}
+.container{
+	margin-top: 60px;
+}
+
+.tags-input > .main-input{
+	width: auto;
+	
+}
+/*/ customize tags style ........ */
